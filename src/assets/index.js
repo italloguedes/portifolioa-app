@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import bu from "./BongaUniversityLogo.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,8 +30,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import upwork from "./upwork.png";
+import fiver from "./fiver.png";
+import code from "./codecraft.png";
+import ecommerce from "./Ecommerce.png";
 
 export {
+  ecommerce,
+  code,
+  fiver,
+  upwork,
+  bu,
   logo,
   backend,
   creator,

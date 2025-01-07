@@ -31,7 +31,19 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 cadr-img_hover gap-2">
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+          <div
+              className="bg-red-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open("https://ecommerce-app-tlto.onrender.com/", "_blank")}
+            >
+              <img
+                src={github}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            onClick={() => window.open(source_code_link, "_blank")}
+            >
               <img
                 src={github}
                 alt="github"
@@ -41,16 +53,7 @@ const ProjectCard = ({
 
             {/* // for Live demo purpose (show case) */}
 
-            <div
-              className="bg-red-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              onClick={() => window.open(source_code_link, "_blank")}
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+
           </div>
         </div>
         <div className="mt-5">
