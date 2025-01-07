@@ -1,4 +1,6 @@
 import {
+  gitexplorer,
+  madishacodecamp,
   ecommerce,
   bu,
   code,
@@ -213,6 +215,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
       },
@@ -223,6 +229,8 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/MadisoMelese/Ecommerce-App",
+    live_demo:"https://ecommerce-app-tlto.onrender.com/"
+
   },
   {
     name: "Job IT",
@@ -238,33 +246,42 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: madishacodecamp,
+    source_code_link: "https://github.com/MadisoMelese/MadioshaCodeLab",
+    live_demo:"https://madisomelese.github.io/MadioshaCodeLab/build/"
+
   },
   {
-    name: "Trip Guide",
+    name: "Git Explorer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A git explorer focuses on exploring users from github using github free api also focuses on fetching data from backend and APIs for using time eficeently",
     tags: [
       {
-        name: "nextjs",
+        name: "React Router",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gitexplorer,
+    source_code_link: "https://github.com/MadisoMelese/React-Router",
+    live_demo:"https://github.com/MadisoMelese/React-Router"
+
   },
 ];
 

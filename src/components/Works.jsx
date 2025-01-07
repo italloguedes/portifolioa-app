@@ -8,6 +8,7 @@ import ParallaxTilt from "react-parallax-tilt";
 
 const ProjectCard = ({
   name,
+  live_demo,
   description,
   image,
   source_code_link,
@@ -33,7 +34,7 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 cadr-img_hover gap-2">
           <div
               className="bg-red-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              onClick={() => window.open("https://ecommerce-app-tlto.onrender.com/", "_blank")}
+              onClick={() => window.open(live_demo, "_blank")}
             >
               <img
                 src={github}

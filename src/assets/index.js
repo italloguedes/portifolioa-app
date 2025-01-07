@@ -34,8 +34,12 @@ import upwork from "./upwork.png";
 import fiver from "./fiver.png";
 import code from "./codecraft.png";
 import ecommerce from "./Ecommerce.png";
+import madishacodecamp from "./madishacodecamp.png";
+import gitexplorer from "./gitexplorer.png";
 
 export {
+  gitexplorer,
+  madishacodecamp,
   ecommerce,
   code,
   fiver,
