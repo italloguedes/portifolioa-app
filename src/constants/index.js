@@ -258,7 +258,7 @@ const projects = [
   {
     name: "Git Explorer",
     description:
-      "A git explorer focuses on exploring users from github using github free api also focuses on fetching data from backend and APIs for using time eficeently",
+      "A git explorer focuses on exploring users from github using github free api also focuses on fetching data from backend and APIs for using time eficeently ",
     tags: [
       {
         name: "React Router",
