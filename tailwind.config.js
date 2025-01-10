@@ -7,6 +7,8 @@ export default {
   mode: "jit",
   theme: {
     extend: {
+      animation: { 'fade-in': 'fadeIn 3s ease-out', },
+      keyframes: { fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 }, }, },
        backgroundClip: 
        { text: 'text'},
       colors: {
@@ -19,6 +21,7 @@ export default {
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
+        'glow': '0 0 20px rgba(255, 255, 255, 0.7)',
       },
       screens: {
         xs: "450px",
