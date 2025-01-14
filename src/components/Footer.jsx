@@ -29,7 +29,7 @@ const Footer = () => {
             <span className="sm:hidden text-2xl">GitHub</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/madiso-melese-b7198b305/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
