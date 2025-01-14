@@ -42,7 +42,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>
-          <a href="#about" id="about">
+          <a href="#about" >
             About Me
           </a>
         </h2>
