@@ -35,7 +35,7 @@ const Contact = () => {
       'db9CKFa0hvAewjBkj'
      ).then(()=>{
       setLoading(false)
-      alert('Thank you. I will get back to you as soon as possible')
+      alert('Obrigado!! Reponderei assim que possivel.')
       setForm({
         name: '',
         email:'',
@@ -62,26 +62,26 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100  rounded-2xl p-8" 
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
-        <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>
+        <h3 className={`${styles.sectionHeadText}`}>Contato.</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white">Your Name</span>
+            <span className="text-white">Seu nome</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder="Qual é o seu nome?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <label className="flex flex-col">
-            <span className="text-white">Your Email</span>
+            <span className="text-white">Seu Email</span>
             <input
               type="email"
               name="email"
@@ -92,13 +92,13 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white">Your Name</span>
+            <span className="text-white">Qual é sua mensagem?</span>
             <textarea
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="Qual é a sua mensagem?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

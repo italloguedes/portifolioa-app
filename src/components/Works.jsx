@@ -23,7 +23,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="w-full p-5 sm:w-[360px] ] rounded-2xl bg-tertiary"
+        className="w-full p-5 sm:w-[360px] rounded-2xl bg-tertiary"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -31,32 +31,30 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 cadr-img_hover gap-2">
-          <div
+          <div className="absolute inset-0 flex justify-end m-3 gap-2">
+            <div
               className="bg-red-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(live_demo, "_blank")}
             >
               <img
                 src={github}
-                alt="github"
+                alt="live demo"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            onClick={() => window.open(source_code_link, "_blank")}
+            <div
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(source_code_link, "_blank")}
             >
               <img
                 src={github}
-                alt="github"
+                alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-
-            {/* // for Live demo purpose (show case) */}
-
-
           </div>
         </div>
+
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
@@ -81,22 +79,25 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>My Work</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Portfólio</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Projetos.</h2>
       </motion.div>
+
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0 - 1, 1)}
+          variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[21px] max-w-3xl leading-[30px]"
         >
-          Welcome to my project showcase, where innovation meets seamless
-          execution. As a proficient full-stack developer specializing in the
-          MERN stack (MongoDB, Express.js, React, Node.js), I am dedicated to
-          building dynamic, responsive, and scalable web applications that solve
-          real-world problems. I have worked on a variety of projects, ranging
-          from frontend development to backend development development. Here are
-          some of the projects I have worked on. You can find more of my
-          projects on my GitHub and Livedemos in it.
+          Bem-vindo à minha vitrine de projetos! Sou desenvolvedor full-stack com
+          foco em soluções modernas usando tecnologias como Next.js, Stripe,
+          inteligência artificial e integração com WordPress. Tenho experiência
+          criando produtos digitais escaláveis, incluindo micro SaaS, e-commerces
+          completos com checkout integrado e aplicações baseadas em IA hospedadas
+          na Vercel. 
+          <br />
+          <br />
+          Aqui estão alguns dos meus projetos favoritos — você pode ver mais no
+          meu GitHub ou testar os live demos disponíveis.
         </motion.p>
       </div>
 
