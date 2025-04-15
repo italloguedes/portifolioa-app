@@ -27,9 +27,9 @@ const Contact = () => {
       'template_s9kyfog',
       {
         from_name: form.name,
-        to_name: 'Madiso',
+        to_name: 'Itallo Guedes',
         from_email: form.email,
-        to_email: 'madishamadiso00@gmail.com',
+        to_email: 'tubfuy@gmail.com',
         message: form.message,
       },
       'db9CKFa0hvAewjBkj'
